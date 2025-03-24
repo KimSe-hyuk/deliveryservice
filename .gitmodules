@@ -1,0 +1,27 @@
+[submodule "backend/auth-service"]
+	path = backend/auth-service
+	url = https://github.com/KimSe-hyuk/auth-service.git
+[submodule "backend/edge-service"]
+	path = backend/edge-service
+	url = https://github.com/KimSe-hyuk/edge-service.git
+[submodule "backend/ride-service"]
+	path = backend/ride-service
+	url = https://github.com/KimSe-hyuk/ride-service.git
+[submodule "front/front"]
+	path = front/front
+	url = https://github.com/ChoDaeKyung/DeliveryService.git
+[submodule "backend/select-service"]
+	path = backend/select-service
+	url = https://github.com/ChoDaeKyung/select-service.git
+[submodule "backend/file-service"]
+	path = backend/file-service
+	url = https://github.com/ChoDaeKyung/file-service.git
+[submodule "backend/payment-service"]
+	path = backend/payment-service
+	url = https://github.com/ChoDaeKyung/payment-service.git
+[submodule "backend/review-service"]
+	path = backend/review-service
+	url = https://github.com/kimsegwang/review-service.git
+[submodule "backend/news-service"]
+	path = backend/news-service
+	url = https://github.com/kimsegwang/News-service.git
