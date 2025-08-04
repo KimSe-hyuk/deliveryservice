@@ -1,5 +1,6 @@
 [README.md](https://github.com/user-attachments/files/21572637/README.md)
 # 🥪 실시간 샌드위치 배달 플랫폼 (Team Project)
+[실시간 샌드위치 배달 서비스.pptx](https://github.com/user-attachments/files/21572686/default.pptx)
 
 ### 📌 프로젝트 개요
 사용자가 맞춤형 샌드위치를 주문하고, 실시간으로 배달 상태를 확인할 수 있는 웹 플랫폼입니다.  
@@ -16,12 +17,12 @@
 | select-service | 재료 선택, 완성품 생성 | 팀원 A | 🔗 [링크](https://github.com/ChoDaeKyung/select-service) |
 | payment-service | Toss 결제 + Redis Lock | 팀원 B | 🔗 [링크](https://github.com/ChoDaeKyung/payment-service) |
 | file-service | Base64 이미지 처리 + S3 업로드 | 팀원 A | 🔗 [링크](https://github.com/ChoDaeKyung/file-service) |
-| edge-service | Gateway 라우팅 관리 | 공동 | ✅ [내 GitHub](https://github.com/KimSe-hyuk/edge-service) |
+| edge-service | Gateway 라우팅 관리 | **김세혁(본인)** | ✅ [내 GitHub](https://github.com/KimSe-hyuk/edge-service) |
 
 ---
 
 ### 💻 내가 맡은 기능
-
+   배포 자동화와 배포와 모니터링
 - `auth-service`:  
   - JWT 기반 로그인 및 토큰 재발급  
   - OAuth2 로그인 (카카오, 네이버, 구글)  
@@ -31,7 +32,12 @@
   - 배달원 실시간 위치 저장 (Redis)  
   - 카카오 길찾기 API 활용  
   - 채팅 메시지 처리 (SQS + Redis)  
-  - 제품 상태 처리 (SQS + Redis) 
+  - 제품 상태 처리 (SQS + Redis)
+    
+- `edge-service`:
+  - 게이트웨이 라우팅 관리
+
+  
 ---
 
 ### 🔗 시연 영상  
